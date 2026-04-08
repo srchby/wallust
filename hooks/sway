@@ -1,0 +1,13 @@
+#!/bin/sh
+
+if [ "$XDG_CURRENT_DESKTOP" != "sway" ] &&
+  [ "$XDG_SESSION_DESKTOP" != "sway" ] &&
+  ! pgrep -x sway >/dev/null; then
+  exit 0
+fi
+
+if pgrep -x waybar >/dev/null; then
+  pkill waybar
+fi
+
+swaymsg reload

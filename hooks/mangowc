@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if ! pgrep -x mango >/dev/null; then
+  exit 0
+fi
+
+# Mango-specific hook
+pkill waybar && waybar -c ~/.config/waybar/config-mango.jsonc &

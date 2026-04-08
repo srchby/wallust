@@ -1,0 +1,55 @@
+# font
+set font "JetBrainsMono NFM"
+
+# colors
+set default-bg                     "{{background}}"
+set default-fg                     "{{color10}}"
+
+set statusbar-bg                   "{{color12}}"
+set statusbar-fg                   "{{background }}"
+
+set inputbar-bg                    "{{color8}}"
+set inputbar-fg                    "{{foreground}}"
+
+set notification-bg                "{{background}}"
+set notification-fg                "{{foreground}}"
+
+set notification-error-bg          "{{background}}"
+set notification-error-fg          "{{foreground}}"
+
+set notification-warning-bg        "{{background}}"
+set notification-warning-fg        "{{foreground}}"
+
+set highlight-color                "{{color10}}"
+set highlight-active-color         "{{color14}}"
+
+set completion-bg                  "{{color8}}"
+set completion-fg                  "{{color15}}"
+
+set completion-highlight-bg        "{{color12}}"
+set completion-highlight-fg        "{{color0}}"
+
+set recolor-lightcolor             "{{background}}"
+set recolor-darkcolor              "{{color12}}"
+
+# settings
+set recolor true
+set statusbar-h-padding 1
+set statusbar-v-padding 1
+set page-padding 1
+set selection-clipboard clipboard
+
+# mappings
+map u scroll half-up
+map d scroll half-down
+map D toggle_page_mode
+map r reload
+map R rotate
+map K zoom in
+map J zoom out
+map i recolor
+map p print
+unmap b
+map b feedkeys ":blist<Return>"
+map <C-b> feedkeys ":bdelete "
+map B feedkeys ":bmark "

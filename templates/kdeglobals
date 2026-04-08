@@ -1,0 +1,198 @@
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Color={{color0}}
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.65
+ContrastEffect=1
+Enable=
+IntensityAmount=0.1
+IntensityEffect=2
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color={{color1}}
+ColorAmount=0.025
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=2
+Enable=false
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate={{background}}
+BackgroundNormal={{background}}
+DecorationFocus={{color2}}
+DecorationHover={{color3}}
+ForegroundActive={{foreground}}
+ForegroundInactive={{color4}}
+ForegroundLink={{color5}}
+ForegroundNegative={{color6}}
+ForegroundNeutral={{color7}}
+ForegroundNormal={{foreground}}
+ForegroundPositive={{color8}}
+ForegroundVisited={{color9}}
+
+[Colors:Complementary]
+BackgroundAlternate={{background}}
+BackgroundNormal={{background}}
+DecorationFocus={{color2}}
+DecorationHover={{color3}}
+ForegroundActive={{foreground}}
+ForegroundInactive={{color4}}
+ForegroundLink={{color5}}
+ForegroundNegative={{color6}}
+ForegroundNeutral={{color7}}
+ForegroundNormal={{foreground}}
+ForegroundPositive={{color8}}
+ForegroundVisited={{color9}}
+
+[Colors:Header]
+BackgroundAlternate={{background}}
+BackgroundNormal={{background}}
+DecorationFocus={{color2}}
+DecorationHover={{color3}}
+ForegroundActive={{foreground}}
+ForegroundInactive={{color4}}
+ForegroundLink={{color5}}
+ForegroundNegative={{color6}}
+ForegroundNeutral={{color7}}
+ForegroundNormal={{foreground}}
+ForegroundPositive={{color8}}
+ForegroundVisited={{color9}}
+
+[Colors:Header][Inactive]
+BackgroundAlternate={{background}}
+BackgroundNormal={{background}}
+DecorationFocus={{color2}}
+DecorationHover={{color3}}
+ForegroundActive={{foreground}}
+ForegroundInactive={{color4}}
+ForegroundLink={{color5}}
+ForegroundNegative={{color6}}
+ForegroundNeutral={{color7}}
+ForegroundNormal={{foreground}}
+ForegroundPositive={{color8}}
+ForegroundVisited={{color9}}
+
+[Colors:Selection]
+BackgroundAlternate={{color10}}
+BackgroundNormal={{color2}}
+DecorationFocus={{color2}}
+DecorationHover={{color3}}
+ForegroundActive={{foreground}}
+ForegroundInactive={{color4}}
+ForegroundLink={{color11}}
+ForegroundNegative={{color6}}
+ForegroundNeutral={{color7}}
+ForegroundNormal={{foreground}}
+ForegroundPositive={{color8}}
+ForegroundVisited={{color12}}
+
+[Colors:Tooltip]
+BackgroundAlternate={{background}}
+BackgroundNormal={{background}}
+DecorationFocus={{color2}}
+DecorationHover={{color3}}
+ForegroundActive={{foreground}}
+ForegroundInactive={{color4}}
+ForegroundLink={{color5}}
+ForegroundNegative={{color6}}
+ForegroundNeutral={{color7}}
+ForegroundNormal={{foreground}}
+ForegroundPositive={{color8}}
+ForegroundVisited={{color9}}
+
+[Colors:View]
+BackgroundAlternate={{background}}
+BackgroundNormal={{background}}
+DecorationFocus={{color2}}
+DecorationHover={{color3}}
+ForegroundActive={{foreground}}
+ForegroundInactive={{color4}}
+ForegroundLink={{color5}}
+ForegroundNegative={{color6}}
+ForegroundNeutral={{color7}}
+ForegroundNormal={{foreground}}
+ForegroundPositive={{color8}}
+ForegroundVisited={{color12}}
+
+[Colors:Window]
+BackgroundAlternate={{background}}
+BackgroundNormal={{background}}
+DecorationFocus={{color2}}
+DecorationHover={{color3}}
+ForegroundActive={{foreground}}
+ForegroundInactive={{color4}}
+ForegroundLink={{color5}}
+ForegroundNegative={{color6}}
+ForegroundNeutral={{color7}}
+ForegroundNormal={{foreground}}
+ForegroundPositive={{color8}}
+ForegroundVisited={{color9}}
+
+[DirSelect Dialog]
+DirSelectDialog Size=830,564
+History Items[$e]=file:$HOME/imgs/scr,file:$HOME/play/heroic/prefixes,file:$HOME/play/heroic/prefixes,file:$HOME/play/heroic,file:$HOME/auds,file:$HOME/public,file:$HOME/public,file:$HOME/public,file:$HOME/desk,file:$HOME/desk,file:$HOME/imgs,file:$HOME/vids,file:$HOME/tmp,file:$HOME/docs,file:$HOME/desk
+Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x8c\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
+
+[General]
+BrowserApplication=brave-browser.desktop
+ColorSchemeHash=4bc00480fd5e3c3f02ee7e80d113d421b64ca69d
+TerminalApplication=wezterm start --cwd .
+TerminalService=org.wezfurlong.wezterm.desktop
+XftSubPixel=none
+fixed=JetBrainsMono Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+font=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+smallestReadableFont=JetBrains Mono,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+toolBarFont=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+
+[Icons]
+Theme=Nordzy-dark
+
+[KDE]
+AnimationDurationFactor=0.125
+LookAndFeelPackage=com.github.vinceliuice.Graphite-nord-dark
+ShowDeleteCommand=false
+widgetStyle=Breeze
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Show Bookmarks=false
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=true
+Sort by=Name
+Sort directories first=true
+Sort hidden files last=true
+Sort reversed=true
+Speedbar Width=140
+View Style=Detail
+
+[KShortcutsDialog Settings]
+Dialog Size=600,480
+
+[PreviewSettings]
+EnableRemoteFolderThumbnail=false
+MaximumRemoteSize=0
+
+[Sounds]
+Theme=oxygen
+
+[WM]
+activeBackground={{background}}
+activeBlend={{background}}
+activeFont=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+activeForeground={{foreground}}
+inactiveBackground={{background}}
+inactiveBlend={{background}}
+inactiveForeground={{color4}}
